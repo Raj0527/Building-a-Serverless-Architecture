@@ -6,6 +6,7 @@ As an **AWS Solutions Architect**, I have implemented a serverless, event-driven
 In this project, I configured an Amazon S3 bucket to trigger an SNS notification when an object is added. The SNS topic then distributes this notification to SQS queues, which in turn invoke AWS Lambda functions for processing the uploaded files. This architecture allows for decoupled, scalable processing without the need for server management.
 
 The diagram below illustrates the complete workflow:
+
 ![Serverless](https://github.com/user-attachments/assets/ee4e0ccb-69ad-4e4e-a7f8-5fc95489f782)
 
 ## Objectives
